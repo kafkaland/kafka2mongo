@@ -1,0 +1,23 @@
+{
+  "name": "kafka2mongo",
+  "version": "1.0.0",
+  "description": "The simplest service to persist kafka messages to mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kafkaland/kafka2mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kafkaland/kafka2mongo/issues"
+  },
+  "homepage": "https://github.com/kafkaland/kafka2mongo#readme",
+  "dependencies": {
+    "kafka-node": "^2.2.1",
+    "mongodb": "^2.2.31"
+  }
+}
